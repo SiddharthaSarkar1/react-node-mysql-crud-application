@@ -1,0 +1,91 @@
+.App {
+  height: 100vh;
+  padding: 0px 10px; /*top-botton left-right */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.books {
+  display: flex;
+  gap: 10px;
+}
+
+.book {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  background-color: #b6f8e2;
+}
+
+.delete {
+  border: none;
+  padding: 3px 6px;
+  background-color: white;
+  cursor: pointer;
+  border: 1px solid rgb(245, 191, 191);
+  color: rgb(242, 100, 100);
+}
+
+.update {
+  border: none;
+  padding: 3px 6px;
+  background-color: white;
+  cursor: pointer;
+  border: 1px solid rgb(204, 204, 243);
+  color: rgb(139, 139, 234);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+input {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid gray;
+}
+
+.formButton {
+  border: none;
+  padding: 10px;
+  width: 100%;
+  background-color: crimson;
+  color: white;
+  border-radius: 5px;
+  border: 2px solid white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.formButton:hover {
+  background-color: white;
+  color: crimson;
+  border: 2px solid crimson;
+}
+
+.addButton {
+  border: none;
+  margin: 10px;
+  padding: 10px;
+  width: 250px;
+  background-color: #65f015;
+  color: #350707;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
